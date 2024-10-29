@@ -36,6 +36,23 @@
         document.write("E de menor")
     }
   </script>
+  <p id="demo">Apresenta o resultado aqui</p>
+  <script>
+    var nome="Flavio",apelido="Paixao",idade="16"
+
+    document.getElementById("demo").innerHTML=nome
+    +" "+apelido+"tem"+idade;
+  </script>
+  <script>
+    nome=prompt("Introduza o seu nome:","Em maiusculas");
+
+    if(nome.length >=5){
+        document.write("O seu nome é bem longo");
+    }
+    else{
+        document.write("Os seu nome é curto");
+    }
+  </script>
 
 
 </body>
