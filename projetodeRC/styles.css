@@ -1,0 +1,180 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.b15d018cca2411b7510dc2efd601b0ac?rik=4AvLncHsu2ZVlw&riu=http%3a%2f%2fsweetberry.pt%2fwp-content%2fuploads%2f2015%2f10%2fFRUTOSMIRTILOS.jpg&ehk=beNGvFVlYthIBXxpvdUYmJvdWF86rOeF1ziConaPR7E%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.Descrição-do-site p {
+    text-align: left;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.Introdução-ao-Mirtilo p{
+    text-align: left;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.center {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    height: 80%; 
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: blue;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button a {
+    color: blue;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #f0f8ff;
+    cursor: pointer;
+}
+
+fieldset {
+    color: #4CAF50;
+    border: 5px dashed #4CAF50;
+    display: block;
+    padding: 20px;
+}
+
+div {
+    background-color: rgb(221, 221, 221);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 1200px;
+}
+
+legend {
+    font-size: 20px;
+    text-align: left;
+}
+
+.formulario-mirtilo {
+    font-size: 18px;
+    text-align: left;
+    border: #45a049 dashed 6px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    width: 80%; 
+    max-width: 800px;
+}
+
+label, select, input {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    margin-bottom: 10%;
+}
+.formulario-header {
+    border: 5px dashed #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario-header img {
+    width: 25%;
+    max-width: 800px;
+    height: auto;
+    animation: moverLados 1s infinite alternate;
+
+}
+.Bluzao{
+    text-align: left;
+    margin-top: -20%;
+}
+.sobre-nos fieldset {
+    border: 5px dashed #4CAF50;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    background-color: #fff;
+}
+.container {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.caixa {
+    width: 45%;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.texto-esquerda {
+    margin-left: 0;
+    margin-right: auto;
+}
+

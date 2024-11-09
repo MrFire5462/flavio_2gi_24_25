@@ -1,0 +1,117 @@
+body {
+    background-image: url("https://th.bing.com/th/id/R.b15d018cca2411b7510dc2efd601b0ac?rik=4AvLncHsu2ZVlw&riu=http%3a%2f%2fsweetberry.pt%2fwp-content%2fuploads%2f2015%2f10%2fFRUTOSMIRTILOS.jpg&ehk=beNGvFVlYthIBXxpvdUYmJvdWF86rOeF1ziConaPR7E%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.receita {
+    background-color: white;
+    border: 3px solid #4CAF50;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.receita img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #4CAF50;
+    border-radius: 8px 8px 0 0;
+}
+
+.receita h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.receita p {
+    font-size: 16px;
+    color: #666;
+}
+.formulario-encomenda {
+    font-size: 18px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px; 
+    width: 80%; 
+    margin-left: 300px;
+    border: 2px solid #4CAF50;
+}
+
+.formulario-encomenda label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px; 
+}
+
+
+.formulario-encomenda select {
+    width: 100%;
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; 
+}
+
+.formulario-encomenda button {
+    padding: 15px 25px; 
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; 
+    font-size: 18px; 
+}
+
+.formulario-encomenda button:hover {
+    background-color: #45a049;
+}
