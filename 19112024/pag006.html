@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OPERAÇÕES MATEMÁTICAS</title>
+    <script>
+        function calcula1(){
+            document.contar.r.value=eval(document.contas.n1.value) +
+            eval(document.contas.n2.value);
+        }
+    </script>
+    </head>
+    <body>
+        <form Name="contas">
+            Introduza um número<input type="text" name="n1" size="5">
+            Introduza outro número<input type="text" name="n2" size="5">
+            Resultado<input type="text" name="r" size="10">
+            <input type="button" name="soma" value="soma" onclick="calcula1()">
+        </form>
+    </body>
+</html>

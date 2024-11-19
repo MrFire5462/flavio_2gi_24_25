@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <center><h1>Jogo de Imagens</h1></center>
+        <script>
+            function correcao(){
+                filme1=document.getElementById("resposta").value;
+                if(filme1=="velocidade furiosa"){
+                    alert('Acertou.Pontuação:5pontos');}
+                else{
+                    alert('Tente outra vez');
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <img scr="filme.jpg" width="250" height="320"><br><br>
+        <form name="form1">
+            Introduza o filme
+            <input type="text" id="resposta" style="text-transform: uppercase;" size="30"></form><br>
+        <button type="button" onclick="correcao()">Clique aqui</button>
+    </body>
+</html>
