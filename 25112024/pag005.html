@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Formulario Principal</title></head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Informação Pessoal</legend>
+                <br>
+                <label for="nome_id">Nome completo</label>
+                <input type="text" name="nome" size="60" value="">
+                <br><br>
+
+                <label for="sexo_id">SEXO:</label>
+                <input id="masculino_id" type="radio" name="sexo_info" size="60" value="masculino">Masculino
+                <br><br>
+
+                <input id="femenino_id" type="radio" value="femenino" name="sexo_info">femenino
+                <br><br>
+
+                <label for="morada_id">Morada</label>
+                <input type="text" name="morada" size="100" value="">
+                <br><br>
+
+                <label for="localidade_id">Localidade</label>
+                <input id="localidade_id" name="Localidade" type="text" list="Localidade">
+                <datalist id="Localidade">
+                <option value="Lisboa"></option>
+                <option value="Odivelas"></option>
+                <option value="Amadora"></option>
+                <option value="Oeiras"></option>
+                <option value="Alverca"></option>
+                </datalist>
+                <label for="tel_id">Telefone</label>
+                <input id="tel_id" type="tel" name="telefone" size="30" placeholder="N DE TELEFONE">
+                <label for="naturalidade_id">naturalidade</label>
+                <select id="naturalidade_id" name="naturalidade">
+                    <option value="PT"></option>
+                    <option value="AN"></option>
+                    <option value="BR"></option>
+                    <option value="FR"></option>
+                    <option value="Outro"></option>
+                </select>
+                <br><br>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
