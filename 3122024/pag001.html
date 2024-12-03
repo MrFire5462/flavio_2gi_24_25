@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario com Validação</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Formação ACADÉMICA</legend>
+                <label>Escolaridade</label>
+                <select name="select">
+                    <option value="9ano">9ºano</option>
+                    <option value="12ano">12ºano</option>
+                    <option value="Lecionado">Lecionado</option>
+                    </select>
+                    <br><br>
+                <label>Instituição de ensino</label>
+                <input name="ensino" type="text" size="50"><br><br>
+                <label>Data em que terminou</label>
+                <input name="data" type="date" size="40">
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>FORMAÇÃO PROFISSIONAL</legend>
+                <label for="formacao_id">Curso PROFISSIONAL:</label>
+                <input id="CEF_id" type="radio" name="curso_info" size="60" value="cef">CEF
+                <br><br>
+
+                <input id="VOC_id" type="radio" value="voc" name="curso_info">VOC
+                <br><br>
+                <input id="EFA_id" type="radio" name="curso_info" size="60" value="EFA">EFA
+                <br><br>
+
+                <input id="Profissional_id" type="radio" value="profissional" name="curso_info">Profissional
+                <br><br>
+                <label>Instituição do ensino</label>
+                <input name="Instituicao" type="text"><br><br>
+                <label>Tem formação na area de informatica</label>
+                <input id="sim_id" type="radio" name="curso_info" size="60" value="sim">sim
+                <br><br>
+
+                <input id="nao_id" type="radio" value="nao" name="curso_info">nao
+                <br><br>
+
+                <label for="formacao_id">Qual é a tua formação em linguagem de programação:</label>
+                <input id="C_id" type="radio" name="curso_info" size="60" value="c">C
+                <br><br>
+
+                <input id="c#_id" type="radio" value="c#" name="curso_info">C#
+                <br><br>
+                <input id="C++_id" type="radio" name="curso_info" size="60" value="C++">C++
+                <br><br>
+
+                <input id="C+_id" type="radio" value="C+" name="curso_info">C+
+                <br><br>
+            </fieldset>
+        </form>
+    </body>
+</html>
